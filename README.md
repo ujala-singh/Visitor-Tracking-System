@@ -85,10 +85,6 @@ AndroidManifest.xml
 24. permission_card_items.xml
 25. review_card.xml
     
-Developed by:
-> Amit Kumar  
-> Ujala Singh  
-> Manish Thakur  
-> Abhishek Negi    
-> Ashwin Aishvarya Vardhan  
+Developed by: 
+> Ujala Singh
 
