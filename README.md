@@ -84,7 +84,4 @@ AndroidManifest.xml
 23. nav_header_home.xml
 24. permission_card_items.xml
 25. review_card.xml
-    
-Developed by: 
-> Ujala Singh
 
