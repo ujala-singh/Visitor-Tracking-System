@@ -3,7 +3,7 @@
 
 ## Usage
 To run the dashboard start with login.html using credentials:  
-*Username:* amit@gmail.com  
+*Username:* ujala@gmail.com  
 *Password:* password  
 OR  
 directly run index.html.  
