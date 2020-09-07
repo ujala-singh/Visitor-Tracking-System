@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "1094819864598",
+    "firebase_url": "https://visitormanagement-8f0ac.firebaseio.com",
+    "project_id": "visitormanagement-8f0ac",
+    "storage_bucket": "visitormanagement-8f0ac.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1094819864598:android:6f2fe0387669a595",
+        "android_client_info": {
+          "package_name": "com.example.jolly.visitormanagement"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1094819864598-phmjjshffta19jm1e33qsl4hqfugv4q3.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.jolly.visitormanagement",
+            "certificate_hash": "ab85716a15e2a3fd052995e33b25619613bef62a"
+          }
+        },
+        {
+          "client_id": "1094819864598-vs9ks0u1g55i3mpk8j1b3mpmcp1a7cf4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAcdP0gDun7BVsBfSM53a1xJ3huzEJYjAk"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1094819864598-vs9ks0u1g55i3mpk8j1b3mpmcp1a7cf4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

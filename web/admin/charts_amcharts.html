@@ -1,0 +1,594 @@
+<!DOCTYPE html>
+<!-- 
+Template Name: Metronic - Responsive Admin Dashboard Template build with Twitter Bootstrap 3.3.7
+Version: 4.7.5
+Author: KeenThemes
+Website: http://www.keenthemes.com/
+Contact: support@keenthemes.com
+Follow: www.twitter.com/keenthemes
+Dribbble: www.dribbble.com/keenthemes
+Like: www.facebook.com/keenthemes
+Purchase: http://themeforest.net/item/metronic-responsive-admin-dashboard-template/4021469?ref=keenthemes
+Renew Support: http://themeforest.net/item/metronic-responsive-admin-dashboard-template/4021469?ref=keenthemes
+License: You must have a valid license purchased only from themeforest(the above link) in order to legally use the theme for your project.
+-->
+<!--[if IE 8]> <html lang="en" class="ie8 no-js"> <![endif]-->
+<!--[if IE 9]> <html lang="en" class="ie9 no-js"> <![endif]-->
+<!--[if !IE]><!-->
+<html lang="en">
+    <!--<![endif]-->
+    <!-- BEGIN HEAD -->
+
+    <head>
+        <meta charset="utf-8" />
+        <title>Admin Dashboard </title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta content="width=device-width, initial-scale=1" name="viewport" />
+        <meta content="Preview page of Metronic Admin Theme #4 for statistics, charts, recent events and reports" name="description" />
+        <meta content="" name="author" />
+        <!-- BEGIN GLOBAL MANDATORY STYLES -->
+        <link href="http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700&subset=all" rel="stylesheet" type="text/css" />
+        <link href="../assets/global/plugins/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
+        <link href="../assets/global/plugins/simple-line-icons/simple-line-icons.min.css" rel="stylesheet" type="text/css" />
+        <link href="../assets/global/plugins/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+        <link href="../assets/global/plugins/bootstrap-switch/css/bootstrap-switch.min.css" rel="stylesheet" type="text/css" />
+        <!-- END GLOBAL MANDATORY STYLES -->
+        <!-- BEGIN PAGE LEVEL PLUGINS -->
+        <link href="../assets/global/plugins/bootstrap-daterangepicker/daterangepicker.min.css" rel="stylesheet" type="text/css" />
+        <link href="../assets/global/plugins/morris/morris.css" rel="stylesheet" type="text/css" />
+        <link href="../assets/global/plugins/fullcalendar/fullcalendar.min.css" rel="stylesheet" type="text/css" />
+        <link href="../assets/global/plugins/jqvmap/jqvmap/jqvmap.css" rel="stylesheet" type="text/css" />
+        <!-- END PAGE LEVEL PLUGINS -->
+        <!-- BEGIN THEME GLOBAL STYLES -->
+        <link href="../assets/global/css/components.min.css" rel="stylesheet" id="style_components" type="text/css" />
+        <link href="../assets/global/css/plugins.min.css" rel="stylesheet" type="text/css" />
+        <!-- END THEME GLOBAL STYLES -->
+        <!-- BEGIN THEME LAYOUT STYLES -->
+        <link href="../assets/layouts/layout4/css/layout.min.css" rel="stylesheet" type="text/css" />
+        <link href="../assets/layouts/layout4/css/themes/default.min.css" rel="stylesheet" type="text/css" id="style_color" />
+        <link href="../assets/layouts/layout4/css/custom.min.css" rel="stylesheet" type="text/css" />
+        <!-- END THEME LAYOUT STYLES -->
+        <link rel="shortcut icon" href="favicon.ico" /> </head>
+    <!-- END HEAD -->
+
+    <body class="page-container-bg-solid page-header-fixed page-sidebar-closed-hide-logo">
+        <!-- BEGIN HEADER -->
+        <div class="page-header navbar navbar-fixed-top">
+            <!-- BEGIN HEADER INNER -->
+            <div class="page-header-inner ">
+                <!-- BEGIN LOGO -->
+                <div class="page-logo">
+                    <a href="index.html">
+                        <img src="../assets/layouts/layout4/img/logo-light.png" alt="logo" class="logo-default" /> </a>
+                    <div class="menu-toggler sidebar-toggler">
+                        <!-- DOC: Remove the above "hide" to enable the sidebar toggler button on header -->
+                    </div>
+                </div>
+                <!-- END LOGO -->
+                <!-- BEGIN RESPONSIVE MENU TOGGLER -->
+                <a href="javascript:;" class="menu-toggler responsive-toggler" data-toggle="collapse" data-target=".navbar-collapse"> </a>
+                <!-- END RESPONSIVE MENU TOGGLER -->
+                <!-- BEGIN PAGE ACTIONS -->
+                <!-- DOC: Remove "hide" class to enable the page header actions -->
+                </div>
+                <!-- END PAGE ACTIONS -->
+                <!-- BEGIN PAGE TOP -->
+                <div class="page-top">
+                    <!-- BEGIN HEADER SEARCH BOX -->
+                    <!-- DOC: Apply "search-form-expanded" right after the "search-form" class to have half expanded search box -->
+                    <form class="search-form" action="page_general_search_2.html" method="GET">
+                        <div class="input-group">
+                            <input type="text" class="form-control input-sm" placeholder="Search..." name="query">
+                            <span class="input-group-btn">
+                                <a href="javascript:;" class="btn submit">
+                                    <i class="icon-magnifier"></i>
+                                </a>
+                            </span>
+                        </div>
+                    </form>
+                    <!-- END HEADER SEARCH BOX -->
+                    <!-- BEGIN TOP NAVIGATION MENU -->
+                    <div class="top-menu">
+                        <ul class="nav navbar-nav pull-right">
+                            <li class="separator hide"> </li>
+                            <!-- BEGIN NOTIFICATION DROPDOWN -->
+                            <!-- DOC: Apply "dropdown-dark" class after below "dropdown-extended" to change the dropdown styte -->
+                            <!-- DOC: Apply "dropdown-hoverable" class after "dropdown" and remove data-toggle="dropdown" data-hover="dropdown" data-close-others="true" attributes to enable hover dropdown mode -->
+                            <!-- DOC: Remove "dropdown-hoverable" and add data-toggle="dropdown" data-hover="dropdown" data-close-others="true" attributes to the below A element with dropdown-toggle class -->
+                            <li class="dropdown dropdown-user dropdown-dark">
+                                <a href="javascript:;" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-close-others="true">
+                                    <span class="username username-hide-on-mobile"> IIITA </span>
+                                    <!-- DOC: Do not remove below empty space(&nbsp;) as its purposely used -->
+                                    <img alt="" class="img-circle" src="../assets/layouts/layout4/img/avatar9.jpg" /> </a>
+                                
+                            </li>
+                            <!-- END USER LOGIN DROPDOWN -->
+                            <!-- BEGIN QUICK SIDEBAR TOGGLER -->
+                            <li class="dropdown dropdown-extended quick-sidebar-toggler">
+                                <span class="sr-only">Toggle Quick Sidebar</span>
+                                <i class="icon-logout"></i>
+                            </li>
+                            <!-- END QUICK SIDEBAR TOGGLER -->
+                        </ul>
+                    </div>
+                    <!-- END TOP NAVIGATION MENU -->
+                </div>
+                <!-- END PAGE TOP -->
+            </div>
+            <!-- END HEADER INNER -->
+        </div>
+        <!-- END HEADER -->        
+        
+        <!-- BEGIN HEADER & CONTENT DIVIDER -->
+        <div class="clearfix"> </div>
+        <!-- END HEADER & CONTENT DIVIDER -->
+        <!-- BEGIN CONTAINER -->
+        <div class="page-container">
+            <!-- BEGIN SIDEBAR -->
+            <div class="page-sidebar-wrapper">
+                <!-- BEGIN SIDEBAR -->
+                <!-- DOC: Set data-auto-scroll="false" to disable the sidebar from auto scrolling/focusing -->
+                <!-- DOC: Change data-auto-speed="200" to adjust the sub menu slide up/down speed -->
+                <div class="page-sidebar navbar-collapse collapse">
+                    <!-- BEGIN SIDEBAR MENU -->
+                    <!-- DOC: Apply "page-sidebar-menu-light" class right after "page-sidebar-menu" to enable light sidebar menu style(without borders) -->
+                    <!-- DOC: Apply "page-sidebar-menu-hover-submenu" class right after "page-sidebar-menu" to enable hoverable(hover vs accordion) sub menu mode -->
+                    <!-- DOC: Apply "page-sidebar-menu-closed" class right after "page-sidebar-menu" to collapse("page-sidebar-closed" class must be applied to the body element) the sidebar sub menu mode -->
+                    <!-- DOC: Set data-auto-scroll="false" to disable the sidebar from auto scrolling/focusing -->
+                    <!-- DOC: Set data-keep-expand="true" to keep the submenues expanded -->
+                    <!-- DOC: Set data-auto-speed="200" to adjust the sub menu slide up/down speed -->
+                    <ul class="page-sidebar-menu   " data-keep-expanded="false" data-auto-scroll="true" data-slide-speed="200">
+                        <li class="nav-item start active open">
+                            
+                            <ul class="sub-menu">
+                                <li class="nav-item start active open">
+                                    <a href="index.html" class="nav-link ">
+                                        <i class="icon-bar-chart"></i>
+                                        <span class="title">Dashboard </span>
+                                        <span class="selected"></span>
+                                    </a>
+                                </li>
+                                
+                            </ul>
+                        </li>
+                        <li class="heading" >
+                            <h3 class="uppercase" style="font-size: 25px">Features</h3>
+                        </li>
+                       
+                        
+                        <li class="nav-item  ">
+                            <a href="javascript:;" class="nav-link nav-toggle">
+                                <i class="icon-settings"></i>
+                                <span class="title">Profiles View</span>
+                                <span class="arrow"></span>
+                            </a>
+                            <ul class="sub-menu">
+                                <li class="nav-item  ">
+                                    <a href="s.html" class="nav-link ">
+                                        <span class="title">Visitor Registration
+                                            <br>Profile</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                        
+                        <li class="nav-item  ">
+                            <a href="javascript:;" class="nav-link nav-toggle">
+                                <i class="icon-briefcase"></i>
+                                <span class="title">Tables</span>
+                                <span class="arrow"></span>
+                            </a>
+                            <ul class="sub-menu">
+                                
+                                <li class="nav-item  ">
+                                    <a href="table_static_responsive.html" class="nav-link ">
+                                        <span class="title">Responsive Tables</span>
+                                    </a>
+                                </li>
+                                <li class="nav-item  ">
+                                    <a href="form_controls.html" class="nav-link ">
+                                        <span class="title">Link of App</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="nav-item  ">
+                            <a href="javascript:;" class="nav-link nav-toggle">
+                                <i class="icon-bar-chart"></i>
+                                <span class="title">Charts</span>
+                                <span class="arrow"></span>
+                            </a>
+                            <ul class="sub-menu">
+                                <li class="nav-item  ">
+                                    <a href="charts_amcharts.html" class="nav-link ">
+                                        <span class="title">CHART VISUALISATION</span>
+                                    </a>
+                                </li>
+                                
+                            </ul>
+                        </li>
+                        <li class="nav-item  ">
+                            <a href="javascript:;" class="nav-link nav-toggle">
+                                <i class="icon-pointer"></i>
+                                <span class="title">Maps</span>
+                                <span class="arrow"></span>
+                            </a>
+                            <ul class="sub-menu">
+                                <li class="nav-item  ">
+                                    <a href="maps_google.html" class="nav-link ">
+                                        <span class="title">Google Maps</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                    
+                    <!-- END SIDEBAR MENU -->
+                </div>
+                <!-- END SIDEBAR -->
+            </div>
+            <!-- END SIDEBAR -->
+            <!-- BEGIN CONTENT -->
+            <div class="page-content-wrapper">
+                <!-- BEGIN CONTENT BODY -->
+                <div class="page-content">
+                    <!-- BEGIN PAGE HEAD-->
+                    <div class="page-head">
+                        <!-- BEGIN PAGE TITLE -->
+                        <div class="page-title">
+                            <h1>amChart
+                                <small>charting library & maps. Visual analytics of visitors </small>
+                            </h1>
+                        </div>
+                        <!-- END PAGE TITLE -->
+                        <!-- BEGIN PAGE TOOLBAR -->
+                        <div class="page-toolbar">
+                            <!-- BEGIN THEME PANEL -->
+                            <div class="btn-group btn-theme-panel">
+                                <a href="javascript:;" class="btn dropdown-toggle" data-toggle="dropdown">
+                                    <i class="icon-settings"></i>
+                                </a>
+                                <div class="dropdown-menu theme-panel pull-right dropdown-custom hold-on-click">
+                                    
+                                </div>
+                            </div>
+                            <!-- END THEME PANEL -->
+                        </div>
+                        <!-- END PAGE TOOLBAR -->
+                    </div>
+                    <!-- END PAGE HEAD-->
+                    <!-- BEGIN PAGE BREADCRUMB -->
+                    <ul class="page-breadcrumb breadcrumb">
+                        <li>
+                            <a href="index.html">Home</a>
+                            <i class="fa fa-circle"></i>
+                        </li>
+                        <li>
+                            <span class="active">Charts</span>
+                        </li>
+                    </ul>
+                    <!-- END PAGE BREADCRUMB -->
+                    <!-- BEGIN PAGE BASE CONTENT -->
+                   
+                    <div class="row">
+                        <div class="col-md-12">
+                            <!-- BEGIN ROW -->
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <!-- BEGIN CHART PORTLET-->
+                                    <div class="portlet light bordered">
+                                        <div class="portlet-title">
+                                            <div class="caption">
+                                                <i class="icon-bar-chart font-green-haze"></i>
+                                                <span class="caption-subject bold uppercase font-green-haze">Visitor's Visited</span>
+                                                <span class="caption-helper">New and Old</span>
+                                            </div>
+                                            <div class="tools">
+                                                <a href="javascript:;" class="collapse"> </a>
+                                                <a href="#portlet-config" data-toggle="modal" class="config"> </a>
+                                                <a href="javascript:;" class="reload"> </a>
+                                                <a href="javascript:;" class="fullscreen"> </a>
+                                                <a href="javascript:;" class="remove"> </a>
+                                            </div>
+                                        </div>
+                                        <div class="portlet-body">
+                                            <div id="chart_1" class="chart" style="height: 500px;"> </div>
+                                        </div>
+                                    </div>
+                                    <!-- END CHART PORTLET-->
+                                </div>
+                            </div>
+                            <!-- END ROW -->
+                            <!-- BEGIN ROW -->
+                           
+                            <!-- END ROW -->
+                            <!-- BEGIN ROW -->
+                            
+                            <!-- END ROW -->
+                            <!-- BEGIN ROW -->
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <!-- BEGIN CHART PORTLET-->
+                                    <div class="portlet light bordered">
+                                        <div class="portlet-title">
+                                            <div class="caption">
+                                                <i class="icon-bar-chart font-green-haze"></i>
+                                                <span class="caption-subject bold uppercase font-green-haze">Visitors by Age-Group</span>
+                                                <span class="caption-helper">bar and line chart mix</span>
+                                            </div>
+                                            <div class="tools">
+                                                <a href="javascript:;" class="collapse"> </a>
+                                                <a href="#portlet-config" data-toggle="modal" class="config"> </a>
+                                                <a href="javascript:;" class="reload"> </a>
+                                                <a href="javascript:;" class="fullscreen"> </a>
+                                                <a href="javascript:;" class="remove"> </a>
+                                            </div>
+                                        </div>
+                                        <div class="portlet-body">
+                                            <!--div id="chart_6" class="chart" style="height: 400px;"> </div-->
+                                            <div id="donutchart" style="height: 400px;"></div>
+                                        </div>
+                                    </div>
+                                    <!-- END CHART PORTLET-->
+                                </div>
+                            
+                                <div class="col-md-6">
+                                    <!-- BEGIN CHART PORTLET-->
+                                    <div class="portlet light bordered">
+                                        <div class="portlet-title">
+                                            <div class="caption">
+                                                <i class="icon-bar-chart font-green-haze"></i>
+                                                <span class="caption-subject bold uppercase font-green-haze"> Vistors By states </span>
+                                                <span class="caption-helper">bar and line chart mix</span>
+                                            </div>
+                                            <div class="tools">
+                                                <a href="javascript:;" class="collapse"> </a>
+                                                <a href="#portlet-config" data-toggle="modal" class="config"> </a>
+                                                <a href="javascript:;" class="reload"> </a>
+                                                <a href="javascript:;" class="fullscreen"> </a>
+                                                <a href="javascript:;" class="remove"> </a>
+                                            </div>
+                                        </div>
+                                        <div class="portlet-body">
+                                        <!--div id="chart_7" class="chart" style="height: 400px;"> </div-->
+                                        <div id="states" style="height: 400px;"></div>
+                                           
+                                        </div>
+                                    </div>
+                                    <!-- END CHART PORTLET-->
+                                </div>
+                            </div>
+                            <!-- END ROW -->
+                            <!-- BEGIN ROW -->
+                            <!-- END ROW -->
+                            <!-- BEGIN ROW -->
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <!-- BEGIN CHART PORTLET-->
+                                    <div class="portlet light bordered">
+                                        <div class="portlet-title">
+                                            <div class="caption">
+                                                <i class="icon-bar-chart font-green-haze"></i>
+                                                <span class="caption-subject bold uppercase font-green-haze">Frequent Places</span>
+                                                <span class="caption-helper">Across the campus </span>
+                                            </div>
+                                            <div class="tools">
+                                                <a href="javascript:;" class="collapse"> </a>
+                                                <a href="#portlet-config" data-toggle="modal" class="config"> </a>
+                                                <a href="javascript:;" class="reload"> </a>
+                                                <a href="javascript:;" class="fullscreen"> </a>
+                                                <a href="javascript:;" class="remove"> </a>
+                                            </div>
+                                        </div>
+                                        <div class="portlet-body">
+                                            <div id="chart_div" style="width: 100%; height: 500px;"></div>
+                                        </div>
+                                    </div>
+                                    <!-- END CHART PORTLET-->
+                                </div>
+                            </div>
+                            <!-- END ROW -->
+                        </div>
+                    </div>
+                    <!-- END PAGE BASE CONTENT -->
+                </div>
+                <!-- END CONTENT BODY -->
+            </div>
+            <!-- END CONTENT -->
+            <!-- BEGIN QUICK SIDEBAR -->
+            <a href="javascript:;" class="page-quick-sidebar-toggler">
+                <i class="icon-login"></i>
+            </a>
+        </div>
+        <!-- END CONTAINER -->
+        <!-- BEGIN FOOTER -->
+        <div class="page-footer">
+            <div class="page-footer-inner"> 2018 &copy; Visitor Management System
+                <a target="_blank" href="http://keenthemes.com">Keen</a> &nbsp;|&nbsp;
+                <a href="http://themeforest.net/item/metronic-responsive-admin-dashboard-template/4021469?ref=keenthemes" title="Purchase Metronic just for 27$ and get lifetime updates for free" target="_blank">Purchase !</a>
+            </div>
+            <div class="scroll-to-top">
+                <i class="icon-arrow-up"></i>
+            </div>
+        </div>
+        <!-- END FOOTER -->
+        
+        <!--[if lt IE 9]>
+<script src="../assets/global/plugins/respond.min.js"></script>
+<script src="../assets/global/plugins/excanvas.min.js"></script> 
+<script src="../assets/global/plugins/ie8.fix.min.js"></script> 
+<![endif]-->
+        <!-- BEGIN CORE PLUGINS -->
+        <script src="https://www.gstatic.com/firebasejs/4.12.1/firebase.js"></script>
+        <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+         <script>
+            var config = {
+            apiKey: "AIzaSyDl-9uG-4_mfiDI7jzOe89gilEy1zfTqMI",
+            authDomain: "visitormanagement-8f0ac.firebaseapp.com",
+            databaseURL: "https://visitormanagement-8f0ac.firebaseio.com",
+            projectId: "visitormanagement-8f0ac",
+            storageBucket: "visitormanagement-8f0ac.appspot.com",
+            messagingSenderId: "1094819864598"
+        };
+        firebase.initializeApp(config);
+        var dbref = firebase.database().ref().child('Visitor_Details');
+       // var age = {'lessthan18':0,'18-24':0,'24-40':0,'greaterthan40':0} 
+        var age ;
+        dbref.once("value", function(snapshot) {
+            var age = {'lessthan18':1,'18-24':0,'24-40':1,'greaterthan40':1} 
+            snapshot.forEach(function(childsnapshot) {
+                //console.log(childsnapshot.val().age);
+                if (childsnapshot.val().age < 18 )
+                    age['lessthan18']++;
+                else if (childsnapshot.val().age >= 18 && childsnapshot.val().age  < 24 ){
+                    age['18-24'] = ~~age['18-24'] + 1;
+                }
+                else if (childsnapshot.val().age <= 24 && childsnapshot.val().age  < 40)
+                    age['24-40']++;
+                else 
+                    age['greaterthan40']++;
+            });
+            google.charts.load("current", {packages:["corechart"]});
+            google.charts.setOnLoadCallback(drawChart);
+            function drawChart() {
+                var data = google.visualization.arrayToDataTable([
+                     ['Age',              'No of people'],
+                     ['less than 18',       age['lessthan18']],
+                     ['18 - 24',            age['18-24']],
+                     ['24 - 40',            age['24-40']],
+                     ['greater than 40',    age['greaterthan40']]
+                ]);
+                var options = {
+                    title: 'Visted as per Age-Group',
+                    pieHole: 0.4,
+                };
+                var chart = new google.visualization.PieChart(document.getElementById('donutchart'));
+                    chart.draw(data, options);
+            }
+        });
+        </script> 
+        <script >
+         dbref.once("value", function(snap) {
+            var states = {'ap':0, 'up':0,'mhr':0,'mp':0,'rj':0,'bhr':0, 'othr':0};
+            snap.forEach(function (childsnapshot) {
+                if (childsnapshot.val().state  == null)
+                            return;
+                if (childsnapshot.val().state.localeCompare('Andhra Pradesh')== 0 ) 
+                    states['ap']++;
+                else if (childsnapshot.val().state.localeCompare('Uttar Pradesh') == 0 ) 
+                    states['up']++;
+                else if (childsnapshot.val().state.localeCompare("Maharashtra") == 0) 
+                    states['mhr']++;
+                else if (childsnapshot.val().state.localeCompare("Madhya Pradesh") == 0 )
+                    states['mp']++;
+                else if (childsnapshot.val().state.localeCompare("Rajasthan") == 0 )
+                    states['rj']++;
+                else if (childsnapshot.val().state.localeCompare("Bihar") == 0 )
+                    states['bhr']++;
+                else 
+                    states['othr']++;
+            });
+            //console.log(snap.val())
+            google.charts.load("current", {packages:["corechart"]});
+            google.charts.setOnLoadCallback(drawChart);
+            function drawChart() {
+            var data = google.visualization.arrayToDataTable([
+                  ['States', 'No of people'],
+                  ['Andhra Pradesh',     states['ap']],
+                  ['Uttar Pradesh',      states['up']],
+                  ['Maharashtra',        states['mhr']],
+                  ['Madhya Pradesh',     states['mp']],
+                  ['Rajasthan',          states['rj']],
+                  ['Bihar',              states['bhr']],
+                  ['Others',             states['othr']]
+            ]);
+            var options = {
+                  title: 'State Wise',
+                  is3D: true,
+            };
+            var chart = new google.visualization.PieChart(document.getElementById('states'));
+            chart.draw(data, options);
+            }
+        });
+        //console.log(states);
+        </script>
+        <script > 
+             dbref.once("value", function(snap) {
+                var location ={'vh':0 , 'facul':0 , 'gh':0, 'cc1':1, 'cc2':1 , 'cc3':1 } 
+                snap.forEach(function (childsnapshot) {
+                        //if (typeof (childsnapshot.val().location ) == 'undefined') null == undefined 
+                           // return;
+                        if (childsnapshot.val().location  == null)
+                            return;
+                        if (childsnapshot.val().location.localeCompare("VISITOR HOSTEL 1"))
+                            location['vh']++;
+                        if (childsnapshot.val().location.localeCompare("FACULTY APARTMENT"))
+                            location['facul']++;
+                        if (childsnapshot.val().location.localeCompare("GIRLS' HOSTEL 1"))
+                            location['gh']++;
+                });
+                google.charts.load("current", {packages:["corechart"]});
+                google.charts.setOnLoadCallback(drawChart);
+                function drawChart() {
+                var data = google.visualization.arrayToDataTable([
+                        ['Place',               'frequency'],
+                        ['Visitor Hostel 1',    location['vh']],
+                        ['Faculty Appartment',  location['facul']],
+                        ['Girls Hostel',        location['gh']],
+                        ['Computer Center 1',   location['cc1']],
+                        ['Computer Center 2',   location['cc2']],
+                        ['Computer Center 3',   location['cc3']]
+                ]);
+                var options = {
+                        title: 'Frequently Requested  Places ',
+                        is3D: true,
+                };
+                var chart = new google.visualization.PieChart(document.getElementById('chart_div'));
+                chart.draw(data, options);
+              }
+            });          
+        </script>
+
+        <script src="../assets/global/plugins/jquery.min.js" type="text/javascript"></script>
+        <script src="../assets/global/plugins/bootstrap/js/bootstrap.min.js" type="text/javascript"></script>
+        <script src="../assets/global/plugins/js.cookie.min.js" type="text/javascript"></script>
+        <script src="../assets/global/plugins/jquery-slimscroll/jquery.slimscroll.min.js" type="text/javascript"></script>
+        <script src="../assets/global/plugins/jquery.blockui.min.js" type="text/javascript"></script>
+        <script src="../assets/global/plugins/bootstrap-switch/js/bootstrap-switch.min.js" type="text/javascript"></script>
+        <!-- END CORE PLUGINS -->
+        <!-- BEGIN PAGE LEVEL PLUGINS -->
+        <script src="../assets/global/plugins/amcharts/amcharts/amcharts.js" type="text/javascript"></script>
+        <script src="../assets/global/plugins/amcharts/amcharts/serial.js" type="text/javascript"></script>
+        <script src="../assets/global/plugins/amcharts/amcharts/pie.js" type="text/javascript"></script>
+        <script src="../assets/global/plugins/amcharts/amcharts/radar.js" type="text/javascript"></script>
+        <script src="../assets/global/plugins/amcharts/amcharts/themes/light.js" type="text/javascript"></script>
+        <script src="../assets/global/plugins/amcharts/amcharts/themes/patterns.js" type="text/javascript"></script>
+        <script src="../assets/global/plugins/amcharts/amcharts/themes/chalk.js" type="text/javascript"></script>
+        <script src="../assets/global/plugins/amcharts/ammap/ammap.js" type="text/javascript"></script>
+        <script src="../assets/global/plugins/amcharts/ammap/maps/js/worldLow.js" type="text/javascript"></script>
+        <script src="../assets/global/plugins/amcharts/amstockcharts/amstock.js" type="text/javascript"></script>
+        <!-- END PAGE LEVEL PLUGINS -->
+        <!-- BEGIN THEME GLOBAL SCRIPTS -->
+        <script src="../assets/global/scripts/app.min.js" type="text/javascript"></script>
+        <!-- END THEME GLOBAL SCRIPTS -->
+        <!-- BEGIN PAGE LEVEL SCRIPTS -->
+        <script src="../assets/pages/scripts/charts-amcharts.min.js" type="text/javascript"></script>
+        <!-- END PAGE LEVEL SCRIPTS -->
+        <!-- BEGIN THEME LAYOUT SCRIPTS -->
+        <script src="../assets/layouts/layout4/scripts/layout.min.js" type="text/javascript"></script>
+        <script src="../assets/layouts/layout4/scripts/demo.min.js" type="text/javascript"></script>
+        <script src="../assets/layouts/global/scripts/quick-sidebar.min.js" type="text/javascript"></script>
+        <script src="../assets/layouts/global/scripts/quick-nav.min.js" type="text/javascript"></script>
+        <!-- END THEME LAYOUT SCRIPTS -->
+        <script>
+            $(document).ready(function()
+            {
+                $('#clickmewow').click(function()
+                {
+                    $('#radio1003').attr('checked', 'checked');
+                });
+            })
+        </script>
+    </body>
+
+</html>

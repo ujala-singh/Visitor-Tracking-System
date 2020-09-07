@@ -1,0 +1,492 @@
+<!DOCTYPE html>
+<!--[if IE 8]> <html lang="en" class="ie8 no-js"> <![endif]-->
+<!--[if IE 9]> <html lang="en" class="ie9 no-js"> <![endif]-->
+<!--[if !IE]><!-->
+<html lang="en">
+    <!--<![endif]-->
+    <!-- BEGIN HEAD -->
+
+    <head>
+        <meta charset="utf-8" />
+        <title>Admin Dashboard </title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta content="width=device-width, initial-scale=1" name="viewport" />
+        <meta content="Preview page of Metronic Admin Theme #4 for statistics, charts, recent events and reports" name="description" />
+        <meta content="" name="author" />
+        <!-- BEGIN GLOBAL MANDATORY STYLES -->
+        <link href="http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700&subset=all" rel="stylesheet" type="text/css" />
+        <link href="../assets/global/plugins/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
+        <link href="../assets/global/plugins/simple-line-icons/simple-line-icons.min.css" rel="stylesheet" type="text/css" />
+        <link href="../assets/global/plugins/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+        <link href="../assets/global/plugins/bootstrap-switch/css/bootstrap-switch.min.css" rel="stylesheet" type="text/css" />
+        <!-- END GLOBAL MANDATORY STYLES -->
+        <!-- BEGIN PAGE LEVEL PLUGINS -->
+        <link href="../assets/global/plugins/bootstrap-daterangepicker/daterangepicker.min.css" rel="stylesheet" type="text/css" />
+        <link href="../assets/global/plugins/morris/morris.css" rel="stylesheet" type="text/css" />
+        <link href="../assets/global/plugins/fullcalendar/fullcalendar.min.css" rel="stylesheet" type="text/css" />
+        <link href="../assets/global/plugins/jqvmap/jqvmap/jqvmap.css" rel="stylesheet" type="text/css" />
+        <!-- END PAGE LEVEL PLUGINS -->
+        <!-- BEGIN THEME GLOBAL STYLES -->
+        <link href="../assets/global/css/components.min.css" rel="stylesheet" id="style_components" type="text/css" />
+        <link href="../assets/global/css/plugins.min.css" rel="stylesheet" type="text/css" />
+        <!-- END THEME GLOBAL STYLES -->
+        <!-- BEGIN THEME LAYOUT STYLES -->
+        <link href="../assets/layouts/layout4/css/layout.min.css" rel="stylesheet" type="text/css" />
+        <link href="../assets/layouts/layout4/css/themes/default.min.css" rel="stylesheet" type="text/css" id="style_color" />
+        <link href="../assets/layouts/layout4/css/custom.min.css" rel="stylesheet" type="text/css" />
+        <!-- END THEME LAYOUT STYLES -->
+        <link rel="shortcut icon" href="favicon.ico" /> </head>
+    <!-- END HEAD -->
+
+    <body class="page-container-bg-solid page-header-fixed page-sidebar-closed-hide-logo">
+        <!-- BEGIN HEADER -->
+  
+        <div class="page-header navbar navbar-fixed-top">
+            <!-- BEGIN HEADER INNER -->
+            <div class="page-header-inner ">
+                <!-- BEGIN LOGO -->
+                <div class="page-logo">
+                    <a href="index.html">
+                        <img src="../assets/layouts/layout4/img/logo-light.png" alt="logo" class="logo-default" /> </a>
+                    
+                </div>
+                <!-- END LOGO -->
+                <!-- BEGIN RESPONSIVE MENU TOGGLER -->
+                <a href="javascript:;" class="menu-toggler responsive-toggler" data-toggle="collapse" data-target=".navbar-collapse"> </a>
+                <!-- END RESPONSIVE MENU TOGGLER -->
+                <!-- BEGIN PAGE ACTIONS -->
+                <!-- DOC: Remove "hide" class to enable the page header actions -->
+                </div>
+                <!-- BEGIN PAGE TOP -->
+                <div class="page-top">
+                    <!-- BEGIN HEADER SEARCH BOX -->
+                    <!-- DOC: Apply "search-form-expanded" right after the "search-form" class to have half expanded search box -->
+                    <form class="search-form" action="page_general_search_2.html" method="GET">
+                        <div class="input-group">
+                            <input type="text" class="form-control input-sm" placeholder="Search..." name="query">
+                            <span class="input-group-btn">
+                                <a href="javascript:;" class="btn submit">
+                                    <i class="icon-magnifier"></i>
+                                </a>
+                            </span>
+                        </div>
+                    </form>
+                    <!-- END HEADER SEARCH BOX -->
+                    <!-- BEGIN TOP NAVIGATION MENU -->
+                    <div class="top-menu">
+                        <ul class="nav navbar-nav pull-right">
+                            <li class="separator hide"> </li>
+                            <!-- BEGIN NOTIFICATION DROPDOWN -->
+                            <!-- DOC: Apply "dropdown-dark" class after below "dropdown-extended" to change the dropdown styte -->
+                            <!-- DOC: Apply "dropdown-hoverable" class after "dropdown" and remove data-toggle="dropdown" data-hover="dropdown" data-close-others="true" attributes to enable hover dropdown mode -->
+                            <!-- DOC: Remove "dropdown-hoverable" and add data-toggle="dropdown" data-hover="dropdown" data-close-others="true" attributes to the below A element with dropdown-toggle class -->
+                            <!-- END INBOX DROPDOWN -->
+                            <li class="separator hide"> </li>
+                            <!-- BEGIN TODO DROPDOWN -->
+                            <!-- DOC: Apply "dropdown-dark" class after below "dropdown-extended" to change the dropdown styte -->
+                            
+                            <!-- END TODO DROPDOWN -->
+                            <!-- BEGIN USER LOGIN DROPDOWN -->
+                            <!-- DOC: Apply "dropdown-dark" class after below "dropdown-extended" to change the dropdown styte -->
+                            <li class="dropdown dropdown-user dropdown-dark">
+                                <a href="javascript:;" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-close-others="true">
+                                    <span class="username username-hide-on-mobile"> IIITA </span>
+                                    <!-- DOC: Do not remove below empty space(&nbsp;) as its purposely used -->
+                                    <img alt="" class="img-circle" src="../assets/layouts/layout4/img/avatar9.jpg" /> </a>
+                            </li>
+                            <!-- END USER LOGIN DROPDOWN -->
+                            <!-- BEGIN QUICK SIDEBAR TOGGLER -->
+                            
+                            <!-- END QUICK SIDEBAR TOGGLER -->
+                        </ul>
+                    </div>
+                    <!-- END TOP NAVIGATION MENU -->
+                </div>
+                <!-- END PAGE TOP -->
+            </div>
+            <!-- END HEADER INNER -->
+        </div>
+        <!-- END HEADER -->        
+        
+        <!-- BEGIN HEADER & CONTENT DIVIDER -->
+        <div class="clearfix"> </div>
+        <!-- END HEADER & CONTENT DIVIDER -->
+        <!-- BEGIN CONTAINER -->
+        <div class="page-container">
+            <!-- BEGIN SIDEBAR -->
+            <div class="page-sidebar-wrapper">
+                <!-- BEGIN SIDEBAR -->
+                <!-- DOC: Set data-auto-scroll="false" to disable the sidebar from auto scrolling/focusing -->
+                <!-- DOC: Change data-auto-speed="200" to adjust the sub menu slide up/down speed -->
+                <div class="page-sidebar navbar-collapse collapse">
+                    <!-- BEGIN SIDEBAR MENU -->
+                    <!-- DOC: Apply "page-sidebar-menu-light" class right after "page-sidebar-menu" to enable light sidebar menu style(without borders) -->
+                    <!-- DOC: Apply "page-sidebar-menu-hover-submenu" class right after "page-sidebar-menu" to enable hoverable(hover vs accordion) sub menu mode -->
+                    <!-- DOC: Apply "page-sidebar-menu-closed" class right after "page-sidebar-menu" to collapse("page-sidebar-closed" class must be applied to the body element) the sidebar sub menu mode -->
+                    <!-- DOC: Set data-auto-scroll="false" to disable the sidebar from auto scrolling/focusing -->
+                    <!-- DOC: Set data-keep-expand="true" to keep the submenues expanded -->
+                    <!-- DOC: Set data-auto-speed="200" to adjust the sub menu slide up/down speed -->
+                    <ul class="page-sidebar-menu   " data-keep-expanded="false" data-auto-scroll="true" data-slide-speed="200">
+                        <li class="nav-item start active open">
+                            
+                            <ul class="sub-menu">
+                                <li class="nav-item start active open">
+                                    <a href="index.html" class="nav-link ">
+                                        <i class="icon-bar-chart"></i>
+                                        <span class="title">Dashboard </span>
+                                        <span class="selected"></span>
+                                    </a>
+                                </li>
+                                
+                            </ul>
+                        </li>
+                        <li class="heading" >
+                            <h3 class="uppercase" style="font-size: 25px">Features</h3>
+                        </li>
+                       
+                        
+                        <li class="nav-item  ">
+                            <a href="javascript:;" class="nav-link nav-toggle">
+                                <i class="icon-settings"></i>
+                                <span class="title">Profiles View</span>
+                                <span class="arrow"></span>
+                            </a>
+                            <ul class="sub-menu">
+                                <li class="nav-item  ">
+                                    <a href="s.html" class="nav-link ">
+                                        <span class="title">Visitor Registration
+                                            <br>Profile</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                        
+                        <li class="nav-item  ">
+                            <a href="javascript:;" class="nav-link nav-toggle">
+                                <i class="icon-briefcase"></i>
+                                <span class="title">Tables</span>
+                                <span class="arrow"></span>
+                            </a>
+                            <ul class="sub-menu">
+                                
+                                <li class="nav-item  ">
+                                    <a href="table_static_responsive.html" class="nav-link ">
+                                        <span class="title">Responsive Tables</span>
+                                    </a>
+                                </li>
+                                <li class="nav-item  ">
+                                    <a href="form_controls.html" class="nav-link ">
+                                        <span class="title">Link of App</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="nav-item  ">
+                            <a href="javascript:;" class="nav-link nav-toggle">
+                                <i class="icon-bar-chart"></i>
+                                <span class="title">Charts</span>
+                                <span class="arrow"></span>
+                            </a>
+                            <ul class="sub-menu">
+                                <li class="nav-item  ">
+                                    <a href="charts_amcharts.html" class="nav-link ">
+                                        <span class="title">CHART VISUALISATION</span>
+                                    </a>
+                                </li>
+                                
+                            </ul>
+                        </li>
+                        <li class="nav-item  ">
+                            <a href="javascript:;" class="nav-link nav-toggle">
+                                <i class="icon-pointer"></i>
+                                <span class="title">Maps</span>
+                                <span class="arrow"></span>
+                            </a>
+                            <ul class="sub-menu">
+                                <li class="nav-item  ">
+                                    <a href="maps_google.html" class="nav-link ">
+                                        <span class="title">Google Maps</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <!-- END SIDEBAR MENU -->
+                </div>
+                <!-- END SIDEBAR -->
+            </div>
+            <!-- END SIDEBAR -->
+            <!-- BEGIN CONTENT -->
+            <div class="page-content-wrapper">
+                <!-- BEGIN CONTENT BODY -->
+                <div class="page-content">
+                    <!-- BEGIN PAGE HEAD-->
+                    <div class="page-head">
+                        <!-- BEGIN PAGE TITLE -->
+                        <div class="page-title">
+                            <h1>Google Maps
+                                <small>interactive google map </small>
+                            </h1>
+                        </div>
+                        <!-- END PAGE TITLE -->
+                        <!-- BEGIN PAGE TOOLBAR -->
+                        
+                        <!-- END PAGE TOOLBAR -->
+                    </div>
+                    <!-- END PAGE HEAD-->
+                    <!-- BEGIN PAGE BREADCRUMB -->
+                    <ul class="page-breadcrumb breadcrumb">
+                        <li>
+                            <a href="index.html">Home</a>
+                            <i class="fa fa-circle"></i>
+                        </li>
+                        <li>
+                            <span class="active">Maps</span>
+                        </li>
+                    </ul>
+                    <!-- END PAGE BREADCRUMB -->
+                    <!-- BEGIN PAGE BASE CONTENT -->
+                    <div id="map" style=" height:500px"></div>
+                    <div id="map2" style="height:400px;margin-top:60px "></div>
+                </div>
+                <!-- END CONTENT BODY -->
+            </div>
+            <!-- END CONTENT -->
+        </div>
+        <!-- END CONTAINER -->
+        <!-- BEGIN FOOTER -->
+        <div class="page-footer">
+            <div class="page-footer-inner"> 2018 &copy; Visitor Management System
+                <a target="_blank" href="http://keen.com">Keen</a> &nbsp;|&nbsp;
+                <a href="http://themeforest.net/item/metronic-responsive-admin-dashboard-template/4021469?ref=keenthemes" title="Purchase Metronic just for 27$ and get lifetime updates for free" target="_blank">Purchase!</a>
+            </div>
+            <div class="scroll-to-top">
+                <i class="icon-arrow-up"></i>
+            </div>
+        </div>
+        <!-- END FOOTER -->
+        
+        <!--[if lt IE 9]>
+<script src="../assets/global/plugins/respond.min.js"></script>
+<script src="../assets/global/plugins/excanvas.min.js"></script> 
+<script src="../assets/global/plugins/ie8.fix.min.js"></script> 
+<![endif]-->
+		<script src="https://www.gstatic.com/firebasejs/4.12.1/firebase.js"></script>
+   		<script>
+  		// Initialize Firebase
+   		var config = {
+	    	apiKey: "AIzaSyDl-9uG-4_mfiDI7jzOe89gilEy1zfTqMI",
+	    	authDomain: "visitormanagement-8f0ac.firebaseapp.com",
+	    	databaseURL: "https://visitormanagement-8f0ac.firebaseio.com",
+	    	projectId: "visitormanagement-8f0ac",
+	    	storageBucket: "visitormanagement-8f0ac.appspot.com",
+	    	messagingSenderId: "1094819864598"
+	  	};
+		firebase.initializeApp(config);
+
+		var position;
+		var N = 30000;
+    	console.log(new Date(Date.now() + N))//time N milliseconds from now 
+    	var map;
+    	var map2;
+		var mark;
+    	var numDeltas = 100;
+    	var delay = 50; //milliseconds
+    	var i = 0;
+    	var deltaLat;
+        var deltaLng;	
+		var marker;
+		var name ;
+        var timestamp;
+		//var infowindow = new google.maps.InfoWindow();
+		var dbref = firebase.database().ref().child('Visitor_Details');
+		dbref.on("value", function(snapshot) {
+	    	var dataRef = snapshot.ref;
+            var dataKey = snapshot.key;
+	    	mypos = new google.maps.LatLng(snapshot.val().longitude, snapshot.val().longitude); // 
+	    	//addmarker(mypos,snapshot.val().no); 
+	   		//console.log(snapshot.val().name);
+	    	if ( !(snapshot.val().name in markers) ){    
+                   //ifname not in markers
+				//alert(snapshot.val().TimeStamp);
+                var marker = new google.maps.Marker({
+	            	position:new google.maps.LatLng(snapshot.val().longitude,snapshot.val().latitude),
+                    map:map,
+	            	icon: image,
+    	            title: snapshot.val().name + snapshot.val().TimeStamp
+	    		});
+				var data = "hel";
+		//console.log(data + snapshot.val().name );
+	    	}
+	   
+		});
+		markers = { };//hashmap
+		dbref.on("child_added", function(snap) {
+	    	//addmarker(new google.maps.LatLng(snap.val().latitude, snap.val().longitude) , snap.val().name);///////// marker + name 
+      	    var marker = new google.maps.Marker({
+	        	position:new google.maps.LatLng(snap.val().longitude,snap.val().latitude),
+                map:map,
+	        	icon: image,
+    	        title: snap.val().name +snap.val().TimeStamp
+	    	});
+	    	addmarker(new google.maps.LatLng(snap.val().longitude,snap.val().latitude),snap.val().name);////
+	    	markers[snap.val().name] = marker;
+	    	position = [snap.val().latitude, snap.val().longitude]
+		});
+		dbref.on("child_changed", function(snapshot) {
+ 	    	var changedPost = snapshot.val();
+	    	//console.log(snapshot.val());
+	    	var i =0;
+            if(snapshot.val().name == null)
+                return;
+
+	    	if (snapshot.val().name in markers )
+	    	{
+	    		//console.log(markers[snapshot.val().name].title);      //////
+				marker = markers[snapshot.val().name];
+				position = [snapshot.val().latitude, snapshot.val().longitude];
+				name = snapshot.val().name ;
+	   			transition([snapshot.val().latitude, snapshot.val().longitude],snapshot.val().name);
+	    	}	
+	    	//position = [snapshot.val().latitude, snapshot.val().longitude];
+	    	//transition([snapshot.val().latitude, snapshot.val().longitude],snapshot );////////////transiton 
+	    	//position = [snapshot.val().latitude, snapshot.val().longitude];
+	    	//console.log(position);
+		});
+       var image = { url: "https://maps.gstatic.com/mapfiles/ms2/micons/red-dot.png",};
+       
+       function addmarker(pos,name) {
+	   		//var myLatlng = new google.maps.LatLng(25.4304161,81.778345);
+	   		var myLatlng = new google.maps.LatLng(30,50);
+	   		var mapOptions = {
+  	       		zoom: 16,
+	       		center: myLatlng
+	   		}
+	    	marker = new google.maps.Marker({
+	       		position: pos,
+               	map:map,
+	       		icon: image,
+    	       	title:name + new Date(Date.now()+0)
+	   		});
+	   		//setTimeout(changemarker(pos,myLatlng), 30);
+	   		//transition([25.4304161,81.77067899999997]);
+      	}
+      function transition(result, snap)
+      {
+	    	i = 0;
+	    	deltaLat = (result[0] - position[0])/numDeltas;
+	    	deltaLng = (result[1] - position[1])/numDeltas;
+
+	    	moveMarker();//move marker 
+      }
+      function moveMarker()
+      {
+	    	position[0] += deltaLat;
+	    	position[1] += deltaLng;
+	    	var latlng = new google.maps.LatLng(position[0], position[1]);
+	    	//console.log(name);
+	    	marker.setTitle("Latitude:"+position[0]+" | Longitude:"+position[1] +" " +  name); //title of marker 
+	    	marker.setPosition(latlng);
+	    	if(i!=numDeltas){
+				i++;
+				setTimeout(moveMarker, delay);
+     	    }
+      }
+      function initMap() 
+      {
+			directionsService = new google.maps.DirectionsService;
+			directionDisplay  = new google.maps.DirectionsRenderer({map:map});
+        	map = new google.maps.Map(document.getElementById('map'), {
+          		zoom: 16,
+          		center: new google.maps.LatLng(25.4304161, 81.77067899999997),
+          		//mapTypeId: 'roadmap'
+          		gestureHandling: 'greedy',
+	  			mapTypeId: google.maps.MapTypeId.ROADMAP
+    		});
+    		map2 = new google.maps.Map(document.getElementById('map2'), {
+          		zoom: 16,
+          		center: new google.maps.LatLng(25.4304161, 81.77067899999997),
+          		//mapTypeId: 'roadmap'
+          		gestureHandling: 'greedy',
+	  			mapTypeId: google.maps.MapTypeId.ROADMAP
+    		});
+			//mark = new google.maps.Marker({
+			//position: new google.maps.LatLng(25.4304161,81.77067899999997),
+			//map: map
+			//});
+      }
+    </script>
+    <script>
+		var dbref = firebase.database().ref().child('Visitor_Details');
+		dbref.on("value", function(snapshot) {
+		    var dataRef = snapshot.ref;
+       		var dataKey = snapshot.key;
+	    	mypos = new google.maps.LatLng(25, 81);	 
+	    	//addmarker(mypos);
+		});
+		dbref.on("child_removed", function(snapshot) {
+	    	var deletedPost = snapshot.val();
+	    	console.log("The user  '" + deletedPost + "' has been deleted");
+
+		});
+		dbref.on("child_added", function(snap) {
+			addmarker(new google.maps.LatLng(snap.val().latitude, snap.val().longitude),snap.val().name);
+		});
+		dbref.on("child_changed", function(snapshot) {
+	    	addmarker(new google.maps.LatLng(snapshot.val().latitude, snapshot.val().longitude), snapshot.val().name);
+		});
+	
+   		function addmarker(pos, name) {
+			var myLatlng = new google.maps.LatLng(25.363882,81.044922);
+			var mapOptions = {
+  		    	zoom: 14,
+  		    	center: myLatlng
+	    	}
+	    	//var currentdate = new Date();
+	    	//var datetime = "Last Sync: " + new Date(Date.now() + 0);
+	    	var marker = new google.maps.Marker({
+    	    	position: pos,
+		    	map: map2, /////////////
+    	    	title: name 
+	    	});
+    }
+   </script>
+
+    <script  async defer
+	 src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBKtIK3w8Cr4cWDIj_FNBPsGdOpaRZDhaU&callback=initMap"></script>
+        <!-- BEGIN CORE PLUGINS -->
+        <script src="../assets/global/plugins/jquery.min.js" type="text/javascript"></script>
+        <script src="../assets/global/plugins/bootstrap/js/bootstrap.min.js" type="text/javascript"></script>
+        <script src="../assets/global/plugins/js.cookie.min.js" type="text/javascript"></script>
+        <script src="../assets/global/plugins/jquery-slimscroll/jquery.slimscroll.min.js" type="text/javascript"></script>
+        <script src="../assets/global/plugins/jquery.blockui.min.js" type="text/javascript"></script>
+        <script src="../assets/global/plugins/bootstrap-switch/js/bootstrap-switch.min.js" type="text/javascript"></script>
+        <!-- END CORE PLUGINS -->
+        <!-- BEGIN PAGE LEVEL PLUGINS -->
+        <script src="http://maps.google.com/maps/api/js?sensor=false" type="text/javascript"></script>
+        <script src="../assets/global/plugins/gmaps/gmaps.min.js" type="text/javascript"></script>
+        <!-- END PAGE LEVEL PLUGINS -->
+        <!-- BEGIN THEME GLOBAL SCRIPTS -->
+        <script src="../assets/global/scripts/app.min.js" type="text/javascript"></script>
+        <!-- END THEME GLOBAL SCRIPTS -->
+        <!-- BEGIN PAGE LEVEL SCRIPTS -->
+        <script src="../assets/pages/scripts/maps-google.min.js" type="text/javascript"></script>
+        <!-- END PAGE LEVEL SCRIPTS -->
+        <!-- BEGIN THEME LAYOUT SCRIPTS -->
+        <script src="../assets/layouts/layout4/scripts/layout.min.js" type="text/javascript"></script>
+        <script src="../assets/layouts/layout4/scripts/demo.min.js" type="text/javascript"></script>
+        <script src="../assets/layouts/global/scripts/quick-sidebar.min.js" type="text/javascript"></script>
+        <script src="../assets/layouts/global/scripts/quick-nav.min.js" type="text/javascript"></script>
+        <!-- END THEME LAYOUT SCRIPTS -->
+        <script>
+            $(document).ready(function()
+            {
+                $('#clickmewow').click(function()
+                {
+                    $('#radio1003').attr('checked', 'checked');
+                });
+            })
+        </script>
+    </body>
+
+</html>

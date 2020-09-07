@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_upload"
+            android:icon="@drawable/ic_save_black_24dp"
+            android:title="Upload Info" />
+        <item
+            android:id="@+id/nav_update"
+            android:icon="@drawable/ic_update_black_24dp"
+            android:title="Update Info" />
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Campus Gallery" />
+        <item
+            android:id="@+id/nav_permission"
+            android:icon="@drawable/ic_warning_black_24dp"
+            android:title="Permissions" />
+        <item
+            android:id="@+id/nav_help"
+            android:icon="@drawable/ic_call_black_24dp"
+            android:title="Help" />
+    </group>
+
+    <item android:title="More">
+        <menu>
+            <item
+                android:id="@+id/nav_about"
+                android:icon="@drawable/ic_details_black_24dp"
+                android:title="Faculty Profiles" />
+            <item
+                android:id="@+id/nav_logout"
+                android:icon="@drawable/ic_remove_circle_outline_black_24dp"
+                android:title="Log out" />
+        </menu>
+    </item>
+
+</menu>

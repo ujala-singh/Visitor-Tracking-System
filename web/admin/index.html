@@ -1,0 +1,507 @@
+<!DOCTYPE html>
+<html lang="en">
+    <!--<![endif]-->
+    <!-- BEGIN HEAD -->
+    <head>
+        <meta charset="utf-8" />
+        <title>Admin Dashboard </title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta content="width=device-width, initial-scale=1" name="viewport" />
+        <meta content="Preview page of Metronic Admin Theme #4 for statistics, charts, recent events and reports" name="description" />
+        <meta content="" name="author" />
+        <!-- BEGIN GLOBAL MANDATORY STYLES -->
+        <link href="http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700&subset=all" rel="stylesheet" type="text/css" />
+        <link href="../assets/global/plugins/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
+        <link href="../assets/global/plugins/simple-line-icons/simple-line-icons.min.css" rel="stylesheet" type="text/css" />
+        <link href="../assets/global/plugins/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+        <link href="../assets/global/plugins/bootstrap-switch/css/bootstrap-switch.min.css" rel="stylesheet" type="text/css" />
+        <!-- END GLOBAL MANDATORY STYLES -->
+        <!-- BEGIN PAGE LEVEL PLUGINS -->
+        <link href="../assets/global/plugins/bootstrap-daterangepicker/daterangepicker.min.css" rel="stylesheet" type="text/css" />
+        <link href="../assets/global/plugins/morris/morris.css" rel="stylesheet" type="text/css" />
+        <link href="../assets/global/plugins/fullcalendar/fullcalendar.min.css" rel="stylesheet" type="text/css" />
+        <link href="../assets/global/plugins/jqvmap/jqvmap/jqvmap.css" rel="stylesheet" type="text/css" />
+        <!-- END PAGE LEVEL PLUGINS -->
+        <!-- BEGIN THEME GLOBAL STYLES -->
+        <link href="../assets/global/css/components.min.css" rel="stylesheet" id="style_components" type="text/css" />
+        <link href="../assets/global/css/plugins.min.css" rel="stylesheet" type="text/css" />
+        <!-- END THEME GLOBAL STYLES -->
+        <!-- BEGIN THEME LAYOUT STYLES -->
+        <link href="../assets/layouts/layout4/css/layout.min.css" rel="stylesheet" type="text/css" />
+        <link href="../assets/layouts/layout4/css/themes/default.min.css" rel="stylesheet" type="text/css" id="style_color" />
+        <link href="../assets/layouts/layout4/css/custom.min.css" rel="stylesheet" type="text/css" />
+        <!-- END THEME LAYOUT STYLES -->
+        <link rel="shortcut icon" href="favicon.ico" /> </head>
+    <!-- END HEAD -->
+
+    <body class="page-container-bg-solid page-header-fixed page-sidebar-closed-hide-logo">
+        <!-- BEGIN HEADER -->
+        <div class="page-header navbar navbar-fixed-top">
+            <!-- BEGIN HEADER INNER -->
+            <div class="page-header-inner ">
+                <!-- BEGIN LOGO -->
+                <div class="page-logo">
+                        <img src="../assets/layouts/layout4/img/logo-light.png" alt="logo" class="logo-default" />
+                    
+                </div>
+                <!-- END LOGO -->
+                <!-- BEGIN RESPONSIVE MENU TOGGLER -->
+                <a href="javascript:;" class="menu-toggler responsive-toggler" data-toggle="collapse" data-target=".navbar-collapse"> </a>
+                <!-- END RESPONSIVE MENU TOGGLER -->
+                <!-- BEGIN PAGE ACTIONS -->
+                <!-- DOC: Remove "hide" class to enable the page header actions -->
+                </div>
+                <!-- END PAGE ACTIONS -->
+                <!-- BEGIN PAGE TOP -->
+                <div class="page-top">
+                    <form class="search-form" action="page_general_search_2.html" method="GET">
+                        <div class="input-group">
+                            <input type="text" class="form-control input-sm" placeholder="Search..." name="query">
+                            <span class="input-group-btn">
+                                <a href="javascript:;" class="btn submit">
+                                    <i class="icon-magnifier"></i>
+                                </a>
+                            </span>
+                        </div>
+                    </form>
+                    
+                    <div class="top-menu">
+                        <ul class="nav navbar-nav pull-right">
+                            <li class="separator hide"> </li>
+                            
+                            
+                            
+                           <li class="dropdown dropdown-user dropdown-dark">
+                                <a href="javascript:;" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-close-others="true">
+                                    <span class="username username-hide-on-mobile"> IIITA </span>
+                                   
+                                    <img alt="" class="img-circle" src="../assets/layouts/layout4/img/avatar9.jpg" /> </a>
+                                
+                            </li>
+                            
+                        </ul>
+                    </div>
+                    
+                </div>
+                
+            </div>
+            
+        </div>
+        <!-- END HEADER --> 
+        <!-- BEGIN HEADER & CONTENT DIVIDER -->
+        <div class="clearfix"> </div>
+        <!-- END HEADER & CONTENT DIVIDER -->
+        <!-- BEGIN CONTAINER -->
+        <div class="page-container">
+            <!-- BEGIN SIDEBAR -->
+            <div class="page-sidebar-wrapper">
+                <!-- BEGIN SIDEBAR -->
+                <!-- DOC: Set data-auto-scroll="false" to disable the sidebar from auto scrolling/focusing -->
+                <!-- DOC: Change data-auto-speed="200" to adjust the sub menu slide up/down speed -->
+                <div class="page-sidebar navbar-collapse collapse">
+                    <!-- BEGIN SIDEBAR MENU -->
+                    <!-- DOC: Apply "page-sidebar-menu-light" class right after "page-sidebar-menu" to enable light sidebar menu style(without borders) -->
+                    <!-- DOC: Apply "page-sidebar-menu-hover-submenu" class right after "page-sidebar-menu" to enable hoverable(hover vs accordion) sub menu mode -->
+                    <!-- DOC: Apply "page-sidebar-menu-closed" class right after "page-sidebar-menu" to collapse("page-sidebar-closed" class must be applied to the body element) the sidebar sub menu mode -->
+                    <!-- DOC: Set data-auto-scroll="false" to disable the sidebar from auto scrolling/focusing -->
+                    <!-- DOC: Set data-keep-expand="true" to keep the submenues expanded -->
+                    <!-- DOC: Set data-auto-speed="200" to adjust the sub menu slide up/down speed -->
+                    <ul class="page-sidebar-menu   " data-keep-expanded="false" data-auto-scroll="true" data-slide-speed="200">
+                        <li class="nav-item start active open">
+                            
+                            <ul class="sub-menu">
+                                <li class="nav-item start active open">
+                                    <a href="index.html" class="nav-link ">
+                                        <i class="icon-bar-chart"></i>
+                                        <span class="title">Dashboard </span>
+                                        <span class="selected"></span>
+                                    </a>
+                                </li>
+                                
+                            </ul>
+                        </li>
+                        <li class="heading" >
+                            <h3 class="uppercase" style="font-size: 25px">Features</h3>
+                        </li>
+                       
+                        
+                        <li class="nav-item  ">
+                            <a href="javascript:;" class="nav-link nav-toggle">
+                                <i class="icon-settings"></i>
+                                <span class="title">Profiles View</span>
+                                <span class="arrow"></span>
+                            </a>
+                            <ul class="sub-menu">
+                                <li class="nav-item  ">
+                                    <a href="s.html" class="nav-link ">
+                                        <span class="title">Visitor Registration
+                                            <br>Profile</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                        
+                        <li class="nav-item  ">
+                            <a href="javascript:;" class="nav-link nav-toggle">
+                                <i class="icon-briefcase"></i>
+                                <span class="title">Tables</span>
+                                <span class="arrow"></span>
+                            </a>
+                            <ul class="sub-menu">
+                                
+                                <li class="nav-item  ">
+                                    <a href="table_static_responsive.html" class="nav-link ">
+                                        <span class="title">Responsive Tables</span>
+                                    </a>
+                                </li>
+                                <li class="nav-item  ">
+                                    <a href="form_controls.html" class="nav-link ">
+                                        <span class="title">Link of App</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="nav-item  ">
+                            <a href="javascript:;" class="nav-link nav-toggle">
+                                <i class="icon-bar-chart"></i>
+                                <span class="title">Charts</span>
+                                <span class="arrow"></span>
+                            </a>
+                            <ul class="sub-menu">
+                                <li class="nav-item  ">
+                                    <a href="charts_amcharts.html" class="nav-link ">
+                                        <span class="title">CHART VISUALISATION</span>
+                                    </a>
+                                </li>
+                                
+                            </ul>
+                        </li>
+                        <li class="nav-item  ">
+                            <a href="javascript:;" class="nav-link nav-toggle">
+                                <i class="icon-pointer"></i>
+                                <span class="title">Maps</span>
+                                <span class="arrow"></span>
+                            </a>
+                            <ul class="sub-menu">
+                                <li class="nav-item  ">
+                                    <a href="maps_google.html" class="nav-link ">
+                                        <span class="title">Google Maps</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <!-- END SIDEBAR MENU -->
+                </div>
+                <!-- END SIDEBAR -->
+            </div>
+            <!-- END SIDEBAR -->
+            <!-- BEGIN CONTENT -->
+            <div class="page-content-wrapper">
+                <!-- BEGIN CONTENT BODY -->
+                <div class="page-content">
+                    <!-- BEGIN PAGE HEAD-->
+                    <div class="page-head">
+                        <!-- BEGIN PAGE TITLE -->
+                        <div class="page-title">
+                            <h1>Admin Dashboard 
+                                <small>statistics, charts, recent events and reports</small>
+                            </h1>
+                        </div>
+                        <!-- END PAGE TITLE -->
+                        
+                    </div>
+                    <!-- END PAGE HEAD-->
+                    <!-- BEGIN PAGE BREADCRUMB -->
+                    <ul class="page-breadcrumb breadcrumb">
+                        <li>
+                            <a href="index.html">Home</a>
+                            <i class="fa fa-circle"></i>
+                        </li>
+                        <li>
+                            <span class="active">Dashboard</span>
+                        </li>
+                    </ul>
+                    <!-- END PAGE BREADCRUMB -->
+                    <!-- BEGIN PAGE BASE CONTENT -->
+                    <div class="row">
+                        <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                            <div class="dashboard-stat2 bordered">
+                                <div class="display">
+                                    <div class="number">
+                                        <h3 id="board_one" class="font-green-sharp">
+                                            0
+                                            <small class="font-green-sharp"> </small>
+                                        </h3>
+                                        <small>VISITS TODAY</small>
+                                    </div>
+                                    <div class="icon">
+                                        <i class="icon-pie-chart"></i>
+                                    </div>
+                                </div>
+                                <div class="progress-info">
+                                    <div class="progress">
+                                        <span style="width: 76%;" class="progress-bar progress-bar-success green-sharp">
+                                            <span class="sr-only">76% progress</span>
+                                        </span>
+                                    </div>
+                                    <div class="status">
+                                        <div class="status-title"> progress </div>
+                                        <div class="status-number"> 76% </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                            <div class="dashboard-stat2 bordered">
+                                <div class="display">
+                                    <div class="number">
+                                        <h3 id ="feedback" class="font-red-haze">
+                                            <span class="board_two">0</span>
+                                        </h3>
+                                        <small> FEEDBACKS</small>
+                                    </div>
+                                    <div class="icon">
+                                        <i class="icon-like"></i>
+                                    </div>
+                                </div>
+                                <div class="progress-info">
+                                    <div class="progress">
+                                        <span style="width: 85%;" class="progress-bar progress-bar-success red-haze">
+                                            <span class="sr-only">85% change</span>
+                                        </span>
+                                    </div>
+                                    <div class="status">
+                                        <div class="status-title"> change </div>
+                                        <div class="status-number"> 85% </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                            <div class="dashboard-stat2 bordered">
+                                <div class="display">
+                                    <div class="number">
+                                        <h3  id ="totalvisit" class="font-blue-sharp">
+                                            <span class="board_three">0</span>
+                                        </h3>
+                                        <small> TOTAL VISITS</small>
+                                    </div>
+                                    <div class="icon">
+                                        <i class="icon-user"></i>
+                                    </div>
+                                </div>
+                                <div class="progress-info">
+                                    <div class="progress">
+                                        <span style="width: 45%;" class="progress-bar progress-bar-success blue-sharp">
+                                            <span class="sr-only">45% grow</span>
+                                        </span>
+                                    </div>
+                                    <div class="status">
+                                        <div class="status-title"> grow </div>
+                                        <div class="status-number"> 45% </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                            <div class="dashboard-stat2 bordered">
+                                <div class="display">
+                                    <div class="number">
+                                        <h3 id="alreadyvisited" class="font-purple-soft">
+                                            <span class="board_four">0</span>
+                                        </h3>
+                                        <small>ALREADY EXISTING VISITORS</small>
+                                    </div>
+                                    <div class="icon">
+                                        <i class="icon-user"></i>
+                                    </div>
+                                </div>
+                                <div class="progress-info">
+                                    <div class="progress">
+                                        <span style="width: 57%;" class="progress-bar progress-bar-success purple-soft">
+                                            <span class="sr-only">56% change</span>
+                                        </span>
+                                    </div>
+                                    <div class="status">
+                                        <div class="status-title"> change </div>
+                                        <div class="status-number"> 57% </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div id = "chart" style="width: 500px; height: 500px;" >
+                        
+                    </div>
+                    
+                    
+                    <!-- END PAGE BASE CONTENT -->
+                </div>
+                <!-- END CONTENT BODY -->
+            </div>
+            <!-- END CONTENT -->
+        </div>
+       
+        <script src="https://www.gstatic.com/firebasejs/4.12.1/firebase.js"></script>
+        <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+
+        <script type="text/javascript">
+            var config = {
+            apiKey: "AIzaSyDl-9uG-4_mfiDI7jzOe89gilEy1zfTqMI",
+            authDomain: "visitormanagement-8f0ac.firebaseapp.com",
+            databaseURL: "https://visitormanagement-8f0ac.firebaseio.com",
+            projectId: "visitormanagement-8f0ac",
+            storageBucket: "visitormanagement-8f0ac.appspot.com",
+            messagingSenderId: "1094819864598"
+            };
+            firebase.initializeApp(config);
+            var dbref = firebase.database().ref().child('Visitor_Details');
+
+            var visitToday = 0;
+            var feedback = 0;
+            var totalvisit = 0;
+            dbref.once("value", function(snap) {
+                var types ={'student':0,'prof':0 ,'fac':0 , 'vis':0, 'othr':0};
+            snap.forEach(function (childsnapshot) {
+                    
+                    var dayfb =  childsnapshot.val().TimeStamp.split(" ")[0].split("/");
+                    //console.log(dayfb);
+                    //console.log(typeof(Number(dayfb[0])));
+                    totalvisit+=1;
+
+                    var today = new Date();
+                    var month = today.getMonth()+1 ;//janu = 0
+                  //  console.log(typeof(today.getDate()));
+                    //console.log(today.getDate()+"/"+ month +"/"+ today.getFullYear())
+                   // console.log(Number(dayfb[1]));
+                    if ((Number(dayfb[0]) == today.getDate()) && (Number(dayfb[1]) == month) &&(Number(dayfb[2]) == today.getFullYear())) {
+                        //console.log(childsnapshot.val().TimeStamp);
+                        visitToday += 1;
+                        //console.log(visitToday);
+                     }
+                    if(childsnapshot.val().comment == null)
+                        return;
+                    if (childsnapshot.val().type  == null)
+                            return;
+                    console.log(childsnapshot.val().type);
+                    if (childsnapshot.val().type.localeCompare('Student')== 0 ) 
+                        types['student']++;
+                     else if (childsnapshot.val().type.localeCompare('Faculty') == 0 ) 
+                        types['fac']++;
+                    else if (childsnapshot.val().type.localeCompare("Visitor") == 0) 
+                        types['vis']++;
+                    else 
+                        types['othr']++;
+                     if(childsnapshot.val().comment.length  != 0 )
+                        feedback += 1;
+                    });  
+                     document.getElementById("board_one").innerHTML = visitToday; 
+                     document.getElementById("feedback").innerHTML = feedback;   
+                     document.getElementById("totalvisit").innerHTML = totalvisit;
+                     document.getElementById("alreadyvisited").innerHTML = totalvisit - visitToday;
+                      google.charts.load('current', {'packages':['bar']});
+            google.charts.setOnLoadCallback(drawStuff);
+          function drawStuff() {
+            var data = new google.visualization.arrayToDataTable([
+              ['Types', 'Number of Visitors'],
+              ["Student", types['student']],
+              ["Faculty", types['fac']],
+              ["Visitor", types['vis']],
+              ['Other', types['othr']]
+            ]);
+
+            var options = {
+              title: 'Types of Visitors visited',
+              width: 900,
+              legend: { position: 'none' },
+              chart: { title: 'Types of Visitors visited',
+                       subtitle: 'Number ' },
+              bars: 'horizontal', // Required for Material Bar Charts.
+              axes: {
+                x: {
+                  0: { side: 'top', label: 'Number  of Visitors '} // Top x-axis.
+                }
+              },
+              bar: { groupWidth: "90%" }
+            };
+
+            var chart = new google.charts.Bar(document.getElementById('chart'));
+            chart.draw(data, options);
+      };
+
+            }); 
+            //document.getElementById("board_one").innerHTML = 90.6;
+       
+           
+    </script>
+        <!-- END FOOTER -->
+        <!--[if lt IE 9]>
+<script src="../assets/global/plugins/respond.min.js"></script>
+<script src="../assets/global/plugins/excanvas.min.js"></script> 
+<script src="../assets/global/plugins/ie8.fix.min.js"></script> 
+<![endif]-->
+        <!-- BEGIN CORE PLUGINS -->
+        <script src="../assets/global/plugins/jquery.min.js" type="text/javascript"></script>
+        <script src="../assets/global/plugins/bootstrap/js/bootstrap.min.js" type="text/javascript"></script>
+        <script src="../assets/global/plugins/js.cookie.min.js" type="text/javascript"></script>
+        <script src="../assets/global/plugins/jquery-slimscroll/jquery.slimscroll.min.js" type="text/javascript"></script>
+        <script src="../assets/global/plugins/jquery.blockui.min.js" type="text/javascript"></script>
+        <script src="../assets/global/plugins/bootstrap-switch/js/bootstrap-switch.min.js" type="text/javascript"></script>
+        <!-- END CORE PLUGINS -->
+        <!-- BEGIN PAGE LEVEL PLUGINS -->
+        <script src="../assets/global/plugins/moment.min.js" type="text/javascript"></script>
+        <script src="../assets/global/plugins/bootstrap-daterangepicker/daterangepicker.min.js" type="text/javascript"></script>
+        <script src="../assets/global/plugins/morris/morris.min.js" type="text/javascript"></script>
+        <script src="../assets/global/plugins/morris/raphael-min.js" type="text/javascript"></script>
+        <script src="../assets/global/plugins/counterup/jquery.waypoints.min.js" type="text/javascript"></script>
+        <script src="../assets/global/plugins/counterup/jquery.counterup.min.js" type="text/javascript"></script>
+        <script src="../assets/global/plugins/amcharts/amcharts/amcharts.js" type="text/javascript"></script>
+        <script src="../assets/global/plugins/amcharts/amcharts/serial.js" type="text/javascript"></script>
+        <script src="../assets/global/plugins/amcharts/amcharts/pie.js" type="text/javascript"></script>
+        <script src="../assets/global/plugins/amcharts/amcharts/radar.js" type="text/javascript"></script>
+        <script src="../assets/global/plugins/amcharts/amcharts/themes/light.js" type="text/javascript"></script>
+        <script src="../assets/global/plugins/amcharts/amcharts/themes/patterns.js" type="text/javascript"></script>
+        <script src="../assets/global/plugins/amcharts/amcharts/themes/chalk.js" type="text/javascript"></script>
+        <script src="../assets/global/plugins/amcharts/ammap/ammap.js" type="text/javascript"></script>
+        <script src="../assets/global/plugins/amcharts/ammap/maps/js/worldLow.js" type="text/javascript"></script>
+        <script src="../assets/global/plugins/amcharts/amstockcharts/amstock.js" type="text/javascript"></script>
+        <script src="../assets/global/plugins/fullcalendar/fullcalendar.min.js" type="text/javascript"></script>
+        <script src="../assets/global/plugins/horizontal-timeline/horizontal-timeline.js" type="text/javascript"></script>
+        <script src="../assets/global/plugins/flot/jquery.flot.min.js" type="text/javascript"></script>
+        <script src="../assets/global/plugins/flot/jquery.flot.resize.min.js" type="text/javascript"></script>
+        <script src="../assets/global/plugins/flot/jquery.flot.categories.min.js" type="text/javascript"></script>
+        <script src="../assets/global/plugins/jquery-easypiechart/jquery.easypiechart.min.js" type="text/javascript"></script>
+        <script src="../assets/global/plugins/jquery.sparkline.min.js" type="text/javascript"></script>
+        <script src="../assets/global/plugins/jqvmap/jqvmap/jquery.vmap.js" type="text/javascript"></script>
+        <script src="../assets/global/plugins/jqvmap/jqvmap/maps/jquery.vmap.russia.js" type="text/javascript"></script>
+        <script src="../assets/global/plugins/jqvmap/jqvmap/maps/jquery.vmap.world.js" type="text/javascript"></script>
+        <script src="../assets/global/plugins/jqvmap/jqvmap/maps/jquery.vmap.europe.js" type="text/javascript"></script>
+        <script src="../assets/global/plugins/jqvmap/jqvmap/maps/jquery.vmap.germany.js" type="text/javascript"></script>
+        <script src="../assets/global/plugins/jqvmap/jqvmap/maps/jquery.vmap.usa.js" type="text/javascript"></script>
+        <script src="../assets/global/plugins/jqvmap/jqvmap/data/jquery.vmap.sampledata.js" type="text/javascript"></script>
+        <!-- END PAGE LEVEL PLUGINS -->
+        <!-- BEGIN THEME GLOBAL SCRIPTS -->
+        <script src="../assets/global/scripts/app.min.js" type="text/javascript"></script>
+        <!-- END THEME GLOBAL SCRIPTS -->
+        <!-- BEGIN PAGE LEVEL SCRIPTS -->
+        <script src="../assets/pages/scripts/dashboard.min.js" type="text/javascript"></script>
+        <!-- END PAGE LEVEL SCRIPTS -->
+        <!-- BEGIN THEME LAYOUT SCRIPTS -->
+        <script src="../assets/layouts/layout4/scripts/layout.min.js" type="text/javascript"></script>
+        <script src="../assets/layouts/layout4/scripts/demo.min.js" type="text/javascript"></script>
+        <script src="../assets/layouts/global/scripts/quick-sidebar.min.js" type="text/javascript"></script>
+        <script src="../assets/layouts/global/scripts/quick-nav.min.js" type="text/javascript"></script>
+        <!-- END THEME LAYOUT SCRIPTS -->
+        <script>
+            $(document).ready(function()
+            {
+                $('#clickmewow').click(function()
+                {
+                    $('#radio1003').attr('checked', 'checked');
+                });
+            })
+        </script>
+    </body>
+
+</html>

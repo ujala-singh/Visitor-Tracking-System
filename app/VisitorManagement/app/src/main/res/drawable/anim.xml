@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android"
+    android:oneshot="true">
+    <item android:drawable="@drawable/ic_iiita1" android:duration="55"/>
+    <item android:drawable="@drawable/ic_iiita2" android:duration="55"/>
+    <item android:drawable="@drawable/ic_iiita3" android:duration="55"/>
+    <item android:drawable="@drawable/ic_iiita3a" android:duration="55"/>
+    <item android:drawable="@drawable/ic_iiita3b" android:duration="55"/>
+    <item android:drawable="@drawable/ic_iiita3c" android:duration="55"/>
+    <item android:drawable="@drawable/ic_iiita4" android:duration="55"/>
+    <item android:drawable="@drawable/ic_iiita5" android:duration="55"/>
+    <item android:drawable="@drawable/ic_iiita5a" android:duration="55"/>
+    <item android:drawable="@drawable/ic_iiita6" android:duration="55"/>
+    <item android:drawable="@drawable/ic_iiita6a" android:duration="55"/>
+    <item android:drawable="@drawable/ic_iiita7" android:duration="55"/>
+    <item android:drawable="@drawable/ic_iiita7a" android:duration="55"/>
+    <item android:drawable="@drawable/ic_iiita8" android:duration="55"/>
+    <item android:drawable="@drawable/ic_iiita9" android:duration="55"/>
+    <item android:drawable="@drawable/ic_iiita10" android:duration="55"/>
+    <item android:drawable="@drawable/ic_iiita10a" android:duration="55"/>
+    <item android:drawable="@drawable/ic_iiita10b" android:duration="55"/>
+    <item android:drawable="@drawable/ic_iiita11" android:duration="55"/>
+    <item android:drawable="@drawable/ic_iiita11a" android:duration="55"/>
+    <item android:drawable="@drawable/ic_iiita12" android:duration="55"/>
+</animation-list>
